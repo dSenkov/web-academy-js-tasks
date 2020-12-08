@@ -9,7 +9,7 @@ function Calculator() {
   };
 
   this.sum = function () {
-    return this.firstValue + Number(this.secondValue);
+    return this.firstValue + this.secondValue;
   };
 
   this.mul = function () {
